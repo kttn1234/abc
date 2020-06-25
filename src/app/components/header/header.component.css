@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Old+Standard+TT&display=swap');
+.header {
+	/* background-color: #5d959d; */
+	/* font-family: 'Charm', cursive;
+	 */
+	 font-family: 'Dancing Script', cursive;
+	 /* font-family: 'Old Standard TT', serif; */
+	transition: all;
+}
+.header img {
+	width: 68px;
+}
+.header .logo img {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.header .container {
+	position: relative;
+}
+
+.header .active {
+	background: #55a03a;
+	color: #fff;
+}
+.header .nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 100px;;
+}
+.header .nav li {
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+.header .nav li.active a {
+	color: #fff;
+}
+.header .nav li a {
+	position: relative;
+	padding: 22px 10px;
+	display: block;
+	text-align: center;
+	height: 100%;
+}
+.header .nav li:not(.active) a:before {
+	content: '';
+	width: 80%;
+	height: 1px;
+	background-color: #000fff;
+	display: block;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.header .nav li:not(.active):nth-child(1) a:before {
+	background-color: #000fff;
+}
+.header .nav li:not(.active):nth-child(2) a:before {
+	background-color: #ff0000;
+}
+.header .nav li:not(.active):nth-child(3) a:before {
+	background-color: #800080;
+}
+.header .nav li:not(.active):nth-child(4) a:before {
+	background-color: #ffff00;
+}
+.header .nav li:not(.active):nth-child(5) a:before {
+	background-color: #55a03a;
+}
+.header .nav li:not(.active):nth-child(6) a:before {
+	background-color: #ffa500;
+}
+.header ul li {
+	display  : inline-block;
+	color    : #333;
+	font-size: 20px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (max-width: 1234px) {
+
+}
+
+@media screen and (max-width: 767px) {
+}
